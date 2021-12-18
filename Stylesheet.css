@@ -6,3 +6,11 @@ body{
     height: 800px;
     background-image: url("../Photos/Baggrund.jpeg");
 }
+
+header {
+  background-color: #FFFFFF;
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  color: white;
+}
