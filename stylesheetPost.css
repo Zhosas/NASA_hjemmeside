@@ -71,17 +71,3 @@ nav{
 #check{
 	display: none;
 }
-
-.news{
-	text-align: center;
-}
-
-.news h3{
-	color: white;
-	background: #003E97;
-	
-}
-
-.news img{
-	width: 720px;
-}
