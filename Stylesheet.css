@@ -25,6 +25,48 @@ header {
 
 .menu{
 	cursor: pointer;
-	
 }
+
+.sidebar{
+	background: #003E97;
+	width: 960px;
+	display: none;
+}
+
+.sidebar h1{
+	color: white;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+.sidebar h2{
+	color: white;
+	display: block;
+	width: 230px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+
+.sidebar p{
+	color: white;
+	padding-left: 30px;
+	width: 720px;
+}
+
+.sidebar h2:hover{
+	background: white;
+	color: #003E97;
+	cursor: pointer;
+}
+
+
+#check:checked ~ .sidebar{
+	display: block;
+}
+
+#check{
+	display: none;
+}
+
+
 
