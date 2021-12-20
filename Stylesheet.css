@@ -2,15 +2,29 @@
 /* CSS Document */
 
 body{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 	background-size: cover;
     height: 800px;
     background-image: url("../Photos/Baggrund.jpeg");
 }
 
 header {
-  background-color: #FFFFFF;
-  padding: 30px;
-  text-align: left;
-  font-size: 35px;
-  color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFFFFF;
+	padding: 30px;
+  	color: white;
 }
+
+.logo{
+	cursor: pointer;
+}
+
+.menu{
+	cursor: pointer;
+	
+}
+
