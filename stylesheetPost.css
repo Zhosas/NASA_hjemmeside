@@ -29,6 +29,7 @@ header {
 
 nav{
 	float: left;
+	margin: 0px;
 }
 
 .sidebar{
@@ -70,4 +71,46 @@ nav{
 
 #check{
 	display: none;
+}
+
+article{
+	background: white;
+	margin-top: 100px;
+}
+
+.article{
+	padding-left: 30px;
+}
+
+.article p{
+	font-size: 16px;
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.article h1{
+	font-size: 35.2px;
+	font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.article h2{
+	font-size: 24px;
+	font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.article h4{
+	font-size: 14px;
+	font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	font-weight: normal;
+	padding-top: 15px;
+}
+
+.article h5{
+	font-size: 11px;
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.article h6{
+	font-size: 11px;
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	font-weight: normal;
 }

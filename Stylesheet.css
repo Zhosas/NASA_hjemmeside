@@ -63,7 +63,6 @@ nav{
 	cursor: pointer;
 }
 
-
 #check:checked ~ .sidebar{
 	display: block;
 }
@@ -85,3 +84,5 @@ nav{
 .news img{
 	width: 720px;
 }
+
+
