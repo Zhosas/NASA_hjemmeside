@@ -34,7 +34,9 @@ nav{
 .sidebar{
 	background: #003E97;
 	width: 960px;
+	height: inherit;
 	display: none;
+	position: absolute;
 }
 
 .sidebar h1{
@@ -47,13 +49,15 @@ nav{
 	color: white;
 	display: block;
 	width: 230px;
-	padding-left: 30px;
+	margin-left: 30px;
 	box-sizing: border-box;
+	margin-bottom: 30px;
 }
 
 .sidebar p{
 	color: white;
 	padding-left: 30px;
+	margin-bottom: 60px;
 	width: 720px;
 }
 
@@ -71,6 +75,12 @@ nav{
 	display: none;
 }
 
+.main{
+	position: absolute;
+	width: 1920px;
+	height: auto;
+}
+
 .news{
 	text-align: center;
 }
@@ -78,11 +88,38 @@ nav{
 .news h3{
 	color: white;
 	background: #003E97;
-	
+	width: 50px;
+	margin-left: 600px;
+	margin-bottom: 0px;
+	margin-top: 100px;
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 
 .news img{
 	width: 720px;
+}
+
+.news h2{
+	position: absolute;
+	background:rgba(255,255,255,0.50);
+	width: 720px;
+	margin-left: 600px;
+	margin-top: -62px;
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	color: black;
+}
+
+.news h2:link .news h2:visited{
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
+	.main {width: 1440px;}
+	body {width: 1440px;}
+	.sidebar {width: 720px;}
+	.sidebar p{width: 600px;}
+	.news h3{margin-left: 360px;}
+	.news h2{margin-left: 360px;}
 }
 
 
